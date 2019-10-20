@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <script defer src="assets/js/jquery-3.3.1.slim.min.js"></script>
+  <script defer src="assets/js/bootstrap.min.js"></script>
+
+  <title>Market OnBag - Cadastrar Usuário</title>
+</head>
+
+<body>
+  <section id="login">
+    <div class="container my-5">
+      <div class="row justify-content-center">
+        <div class="card py-5 mx-4" style="width: 35rem;">
+          <div class="row px-4">
+            <div class="card-body">
+              <h4 class="text-center pb-3">Registre sua conta</h4>
+              <p class="text-muted">Realize o seu cadastro para fazer compras com nossa rede de supermercados</p>
+              <form method="POST" action="">
+                <h6>Dados Pessoais</h6>
+                <div class="form-row">
+                  <div class="form-group col-md-7">
+                    <label class="d-none" for="nome">Nome Completo</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Digite seu Nome Completo">
+                  </div>
+                  <div class="form-group col-md-5">
+                    <label class="d-none" for="dtnascimento">Data de nascimento</label>
+                    <input type="date" class="form-control" id="dtnascimento">
+                  </div>
+                  <div class="form-group col-md-12">
+                    <label class="d-none" for="email">E-mail</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                      placeholder="Digite seu E-mail">
+                  </div>
+                  <div class="form-group col-md-12">
+                    <label class="d-none" for="password">Senha</label>
+                    <input type="password" class="form-control" id="password" placeholder="Digite a sua senha">
+                  </div>
+                </div>
+                <hr>
+                <h6>Endereço</h6>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label class="d-none" for="password">CEP</label>
+                    <input type="text" class="form-control" id="password" placeholder="Digite seu CEP">
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-2">
+                    <label class="d-none" for="estado">Estado</label>
+                    <input type="text" class="form-control" id="estado" placeholder="Estado">
+                  </div>
+                  <div class="form-group col-md-5">
+                    <label class="d-none" for="cidade">Cidade</label>
+                    <input type="text" class="form-control" id="cidade" placeholder="Cidade">
+                  </div>
+                  <div class="form-group col-md-5">
+                    <label class="d-none" for="bairro">Bairro</label>
+                    <input type="text" class="form-control" id="bairro" placeholder="Bairro">
+                  </div>
+                  <div class="form-group col-md-12">
+                    <label class="d-none" for="endereco">Endereço</label>
+                    <input type="text" class="form-control" id="endereco" placeholder="Endereço">
+                  </div>
+                  <div class="form-group col-md-12">
+                    <label class="d-none" for="endereco">Complemento</label>
+                    <textarea class="form-control" name="complemento" id="complemento" cols="30" rows="3" placeholder="Endereço"></textarea>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="col-md-6 my-2">
+                    <a href="/" class="btn w-100 btn-success">Voltar</a>
+                  </div>
+                  <div class="col-md-6 my-2">
+                    <button type="submit" class="btn w-100 btn-primary">Registrar</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
