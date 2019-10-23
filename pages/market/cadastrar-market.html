@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../../assets/css/bootstrap.css">
+  <link rel="stylesheet" href="../../assets/css/styles-user.css">
+
+  <script defer src="../../assets/js/jquery-3.3.1.slim.min.js"></script>
+  <script defer src="../../assets/js/bootstrap.min.js"></script>
+
+  <title>Market OnBag - Cadastrar Usuário</title>
+</head>
+
+<body style= "background-color: #003366;"
+>
+  <section id="login">
+    <div class="container my-5">
+      <div class="row justify-content-center">
+        <div class="card py-5 mx-4" style="width: 35rem;">
+          <div class="row px-4">
+            <div class="card-body">
+              <h4 class="text-center pb-3">Registre seu supermercado</h4>
+              <p class="text-muted">Realize o seu cadastro para os usuários acessarem os seus produtos</p>
+              <form method="POST" action="">
+                <h6>Dados do Supermercado</h6>
+                <div class="form-row">
+                  <div class="form-group col-md-7">
+                    <label class="d-none" for="nome">NomeFantasia</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Digite o nome fantasia">
+                  </div>
+                  <div class="form-group col-md-5">
+                    <label class="d-none" for="nome">RazaoSocial</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Digite a sua razão social">
+                  </div>
+                  <div class="form-group col-md-12">
+                    <label class="d-none" for="email">E-mail</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                      placeholder="Digite seu E-mail">
+                  </div>
+                  <div class="form-group col-md-12">
+                    <label class="d-none" for="password">Senha</label>
+                    <input type="password" class="form-control" id="password" placeholder="Digite a sua senha">
+                  </div>
+                  <div class="form-group col-md-7">
+                    <label class="d-none" for="nome">CNPJ</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Digite o CNPJ">
+                  </div>
+                  <div class="form-group col-md-5">
+                    <label class="d-none" for="nome">CEP.</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Digite o seu CPF">
+                  </div>
+                </div>
+                <hr>
+                <h6>Endereço</h6>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label class="d-none" for="password">CEP</label>
+                    <input type="text" class="form-control" id="password" placeholder="Digite seu CEP">
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-2">
+                    <label class="d-none" for="estado">Estado</label>
+                    <input type="text" class="form-control" id="estado" placeholder="Estado">
+                  </div>
+                  <div class="form-group col-md-5">
+                    <label class="d-none" for="cidade">Cidade</label>
+                    <input type="text" class="form-control" id="cidade" placeholder="Cidade">
+                  </div>
+                  <div class="form-group col-md-5">
+                    <label class="d-none" for="bairro">Bairro</label>
+                    <input type="text" class="form-control" id="bairro" placeholder="Bairro">
+                  </div>
+                  <div class="form-group col-md-12">
+                    <label class="d-none" for="endereco">Endereço</label>
+                    <input type="text" class="form-control" id="endereco" placeholder="Endereço">
+                  </div>
+                  <div class="form-group col-md-12">
+                    <label class="d-none" for="endereco">Complemento</label>
+                    <textarea class="form-control" name="complemento" id="complemento" cols="30" rows="3" placeholder="Complemento"></textarea>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="col-md-6 my-2">
+                    <a href="/" class="btn w-100 btn-success">Voltar</a>
+                  </div>
+                  <div class="col-md-6 my-2">
+                    <button type="submit" class="btn w-100 btn-primary">Registrar</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
